@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meet Perth</title>
+
+	<!-- Sin bootstrap -->
+	<!-- link rel="stylesheet" href="estilos.css" -->
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" -->
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<!-- Con bootstrap -->
+	<link rel="stylesheet" href="css/estilos-with-bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" >
+
+	<!-- Media Queries -->
+	<link rel="stylesheet" href="css/media-queries.css">
+	
+	<!-- Bootstrap Tooltips -->
+	<script src="js/bootstrap-tooltip.js"></script>
+	<script src="js/bootstrap-popover.js"></script>
+	
+	<!-- Wow animations -->
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	 
+	 $().ready (function (){
+	 $('[data-toggle="popover"]').popover();   
+		$('.menu2Open').click(function () { 
+			$('.menu2').toggle();
+		});
+		$('.menu2').addClass('has-js');
+		$('body').keyup (function(e){
+			if ($('.menu2').css('display') == 'block' && e.keyCode == 27) {
+				$('.menu2').hide();
+			}
+			
+		});
+	});
+	</script>
+	
+</head>
+<body>
+
+<div class="modal" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+
+		<div class="modal-body">
+			<div id="popup-content" class="social-buttons">
+				<p> <a href="https://dribbble.com" target="new"><i class="fa fa-dribbble"></i> Home</a></p>
+				<p> <a href="https://facebook.com" target="new"><i class="fa fa-facebook"></i> About me</a></p>
+				<p> <a href="https://twitter.com" target="new"><i class="fa fa-twitter"></i> Twitter</a></p>
+				<p> <a href=""><i class="fa fa-paper-plane-o"></i> E-mail</a></p>
+				<p> <span><button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button></span></p>
+			</div>
+	  </div>
+</div>
+
+	<nav class="menu2">
+		<a href="https://dribbble.com" target="new"><i class="fa fa-home"></i> Home</a>
+		<a href="https://facebook.com" target="new"><i class="fa fa-heart-o"></i> About me</a>
+		<a href="https://twitter.com" target="new"><i class="fa fa-picture-o"></i> Twitter</a>
+		<a href="https://twitter.com" target="new"><i class="fa fa-envelope-o"></i> Twitter</a>
+		<a href="" onclick="return false" class="menu2Open"><i class="fa fa-times"></i></a>
+	</nav>
+	
+	<header>
+		<div>
+			<a class="menu-right" href="#"  data-toggle="modal" data-target="#basicModal"><i class="fa fa-bars"></i></a>
+			<span class="btn-group menu-right">
+						<a href="#" data-toggle="dropdown"><i class="fa fa-bars"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Galeria</a></li>
+							<li><a href="#">Acerca de</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
+			</span>
+			
+			<a class="menu-right menu2Open" href="#"><i class="fa fa-bars"></i></a> 
+			<a href="index.html" class="logo wow bounce" data-wow-iteration="8" data-wow-duration="2s" data-wow-delay="5s">
+				<img src="img/perth-logo.png" alt="Perth">
+			</a>
+			
+			<span id="title-and-download">
+				<h1 data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Meet Perth</h1>
+			
+				<p>A stupidly simple, flat PSD. Oh yeah, it’s free too!</p>
+			
+				<a class="btn btn-white-blue wow zoomInDown" href="descargas/perth-descarga.zip" data-wow-offset="5"  data-wow-iteration="2" data-wow-duration="1s" data-wow-delay="0s">Download <i class="fa fa-cloud-download"></i></a>
+			</span>
+		</div>
+	</header>
+
+
+	<section class="seccion-1">
+		<div>
+			<h2>A Longwinded Header</h2>
+		
+			<p>She'll be right paddock how lets throw a ciggies. She'll be right ute to built like a doovalacky. We're going rack off bloody she'll be right pash. You little ripper tucker also get a dog up ya greenie.</p>
+		
+			<blockquote>You little ripper boozer no worries she'll be right holy dooley!. Come a freo also as cross as a your shout. Lets throw a khe sanh flamin dead dingo's donger. Lets get some fisho with grab us a trackie dacks.</blockquote>
+		
+			<a  class="btn btn-green wow zoomInLeft"  href="">Say hello <i class="fa fa-envelope"></i></a>
+		</div>
+	</section>
+	
+	<section class="seccion-2 wow bounce">
+		<div>
+			<h2 class="wow zoomInRight">Get a Dog Up Ya’</h2>
+		
+			<p><strong><em>She'll be right paddock how lets throw a ciggies. She'll be right ute to built like a doovalacky.</em></strong></p>
+		
+			<p>We're going rack off bloody she'll be right pash. You little ripper tucker also get a dog up ya greenie.</p>
+		
+			<a class="btn btn-magenta wow zoomInLeft" href="https://dribbble.com/shots/1314681-Freebie-PSD-Perth-A-Free-Flat-Web-Design?list=searches&tag=perth&offset=1" target="new">View on Dribbble <i class="fa fa-dribbble"></i></a>
+		</div>
+	</section>
+	
+	<section class="seccion-3">
+		<h2>Like What You See?</h2>
+		
+		<a class="btn btn-white-green wow zoomInLeft" href="">Buy me a <strong><em>beer</em></strong> <i class="fa fa-beer"></i></a>
+	</section>
+	
+	<aside>
+		<div class="social-buttons" data-wow-iteration="10">
+			<a class="wow zoomInDown" data-wow-delay="0.1s" href="https://dribbble.com" target="new"><i class="fa fa-dribbble"></i></a>
+			<a class="wow zoomInUp" data-wow-delay="0.2s"  href="https://facebook.com" target="new"><i class="fa fa-facebook"></i></a>
+			<a class="wow zoomInDown" data-wow-delay="0.3s"  href="https://twitter.com" target="new"><i class="fa fa-twitter"></i></a>
+			<a class="wow zoomInUp" data-wow-delay="0.4s"  href=""><i class="fa fa-paper-plane-o"></i></a>
+		</div>
+	</aside>
+	
+	<footer>
+		<p>&copy; 2013 Perth. Breeding pixels since the naughties. <a href=""><i class="fa fa-chevron-up"></i></a></p>
+	</footer>
+</body>
+</html>

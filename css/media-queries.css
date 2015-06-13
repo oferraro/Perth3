@@ -1,0 +1,48 @@
+@media (max-width: 1024px) {
+	.menu-right {
+		float: left;
+		margin: 0 30px 20px 0;
+		
+	}
+	
+	#drop-down-menu { 
+		display: none;
+	}
+	
+	#title-and-download { 
+		text-align: left; 
+		padding-top: 40px;
+		clear: both; 
+		display: block;
+	}
+	
+	header div {
+		background-image: none;
+	}
+	
+	header div p {
+		width: 200px;
+	}
+	
+	.logo {
+		clear: both;
+		float: left; 
+	}
+	
+	.seccion-1 div  {
+		background: none;
+		display: inline-block;
+	}
+
+	.seccion-1 div  .btn  {
+		margin-left: 20px;
+	}
+	
+	.seccion-2 div {
+		text-align: left;
+		background: none;
+		display: inline-block; 
+	}
+	
+}
+

@@ -1,0 +1,151 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+header {
+	color: #fff;
+	background: #62c2e7 url(img/fondo-azul.png);
+	text-align: right;
+	}
+
+header div {
+	background: url(img/iphone.png) no-repeat scroll 60px 250px;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 220px;
+}
+
+#menu-right {
+	margin-top: 20px;
+	float: right; 
+}
+
+.logo {
+	background-color: #fff;
+	display: block;
+	width: 100px;
+	text-align: center;
+	padding-top: 25px;
+	height: 75px;
+	border-bottom: solid 4px #0da9e5;
+	box-shadow: 15px 15px 0 #26b0e6;
+}
+.seccion-1 {
+	background-color: #f1f1f1;
+}
+.seccion-1 div {
+	background: url(img/ipad.png) no-repeat scroll 600px 150px #f1f1f1;
+	width: 550px;
+	padding: 130px 390px 140px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.seccion-2 div {
+	background: url(img/devices.png) no-repeat scroll -20px 290px;
+	-webkit-background-size: 600px 310px;
+	background-size: ;
+	width: 380px;
+	padding: 90px 0 240px 560px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.seccion-3 {
+	background: #13c3ae url(img/fondo-verde.png);
+	text-align: center; 
+	color: #fff;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+aside {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding-top: 240px;
+	padding-bottom: 240px;
+}
+
+aside a {
+	border: 2px #545454 solid;
+	color: #545454;
+	width: 50px; height: 50px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+aside a i {
+  position: relative;
+  top: 31%;
+}
+
+aside a:hover {
+	background-color: #545454;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer p { 
+	display: block; 
+}
+
+footer  a { 
+	display: inline-block;
+	float: right;
+	margin: 0 20px 20px 0;
+	color: #7a7a7a;
+}
+
+
+/* Botones */
+.btn {
+	display: inline-block;
+	border: 2px solid;
+	padding: 20px 30px; 
+	border-radius: 4px;
+	color: #ea4c89;
+	text-decoration: none; 
+	text-transform: uppercase;
+}
+
+.btn i {
+	margin-left: 10px;
+}
+
+.btn-magenta {
+	border-color: #ea4c89;
+}
+.btn-magenta:hover {
+	color: white;
+	background: #ea4c89;
+}
+
+.btn-white-green,.btn-white-blue {
+	border-color: white;
+	color: white;
+}
+.btn-white-green:hover {
+	background: white;
+	color: #13c4af;
+}
+
+.btn-white-blue:hover {
+	background: white;
+	color: #70c6eb;
+}
+
+.btn-green {
+	border-color: #14af8f;
+	color: #14af8f;
+}
+.btn-green:hover {
+	color: white;
+	background: #14af8f;
+}
